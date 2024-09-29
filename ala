@@ -1,0 +1,3 @@
+docker build -t custom-spark:3.4.3 ./spark
+docker-compose build --no-cache
+docker-compose up -d
